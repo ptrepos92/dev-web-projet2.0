@@ -1,3 +1,4 @@
+
 <!DOCTYPE  html>
 <html>
 <head>
@@ -66,6 +67,8 @@
 <body>
 <h1>Authentification</h1>
 
+
+
 <form name="form" action="verification.php" method="POST">
 
 <h1>Login</h1>
@@ -78,8 +81,11 @@
             <input type="password" name="password" id="password" placeholder="Entrez vore mot de passe">
         </div>
         <input type="submit"  name="valider" value="S'authentifier">
+
+        <a href="/creer-compte.php">Toujours pas de compte?</a>
  
  </form>
+
 
 
 
