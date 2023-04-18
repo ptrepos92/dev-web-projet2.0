@@ -1,8 +1,10 @@
+<!doctype html>
+<html>
+<body>
 
 
 
 <?php
-session_start();
 
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -21,7 +23,7 @@ fclose($handle);
 
 if ($success) {
      $_SESSION['username']= $password ;
-      require 'secret.php';
+      require 'base.php';
 } else {
     header("Location:connexion.php");
 }
@@ -29,3 +31,6 @@ if ($success) {
 
 
 ?>
+
+</body>
+</html>
