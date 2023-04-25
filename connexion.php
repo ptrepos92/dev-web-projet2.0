@@ -82,7 +82,7 @@
         </div>
         <input type="submit"  name="valider" value="S'authentifier">
 
-        <a href="/creer-compte.php">Toujours pas de compte?</a>
+        <a href="/creercompte.php">Toujours pas de compte?</a>
  
  </form>
 
