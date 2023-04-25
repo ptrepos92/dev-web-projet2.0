@@ -9,6 +9,7 @@
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+
 $success = false;
 
 $handle = fopen("login.csv", "r");
@@ -22,8 +23,12 @@ while (($data = fgetcsv($handle)) !== FALSE) {
 fclose($handle);
 
 if ($success) {
-     $_SESSION['username']= $password ;
-      require 'base.php';
+    session_start();
+     $_SESSION['username'] = $username;
+     $_SESSION['password'] = $password ;
+     $_SESSION['date'] = $data[3] ;
+     $_SESSION['email'] = $data[2];
+     header("Location:accueil.php");;
 } else {
     header("Location:connexion.php");
 }
