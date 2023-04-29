@@ -65,115 +65,55 @@ width: 10%;
 
 <ul id="menu-demo">
 
-<li><a href="#">Salon</a>
+<li><a>Salon</a>
 
-<ul> <li> <a href="https://www.ikea.com/fr/fr/cat/meuble-etagere-11465/">Etagères </a></li>
+<ul> <li> <a href="etageres.php"> Etagères </a></li>
 
-<li><a href="tablebasse.html">Table basse </a></li>
+<li><a href="tablebasse.php">Table basse </a></li>
 
-<li><a href="#">Porte manteau </a></li>
+<li><a href="portementeau.php"> Porte menteau</a></li>
 
-<li><a href="#">Idée deco lampe </a></li>
-
-</ul>
-
-</li>
-
-<li><a href="#">Jardin</a>
-
-<ul> <li> <a href="#">Balancoire </a></li>
-
-<li><a href="#">Table de jardin </a></li>
-
-<li><a href="#">Fontaine maison</a></li>
-
-<li><a href="#">Cabane pour enfants </a></li>
-
-<li><a href="#">Niche </a></li>
+<li><a href="biblio.php"> Bibliothéque </a></li>
 
 </ul>
 
 </li>
 
-<li><a href="#">Chambre</a>
+<li><a>Jardin</a>
 
-<ul> <li> <a href="#">Table de chevet </a></li>
+<ul> <li> <a href="balancoire.php"> Balancoire </a></li>
 
-<li><a href="#">item2 </a></li>
+<li><a href="tablejardin.php">Table de jardin </a></li>
 
-<li><a href="#">item3 </a></li>
+<li><a href="fauteuil.php">Fauteuil</a></li>
 
-<li><a href="#">item4 </a></li>
+<li><a href="cabane.php"> Cabane pour enfants </a></li>
 
-</ul>
-
-</li>
-
-<li><a href="#">Cuisine</a>
-
-<ul> <li> <a href="#">item1 </a></li>
-
-<li><a href="#">item2 </a></li>
-
-<li><a href="#">item3 </a></li>
-
-<li><a href="#">item4 </a></li>
+<li><a href="niche.php"> Niche </a></li>
 
 </ul>
 
 </li>
 
-<li><a href="#">Salle de bains</a>
+<li><a>Chambre</a>
 
-<ul> <li> <a href="#">item1 </a></li>
+<ul> <li> <a href="tabledechevet.php"> Table de chevet</a></li>
 
-<li><a href="#">item2 </a></li>
+<li><a href="penderie.php"> Penderie </a></li>
 
-<li><a href="#">item3 </a></li>
-
-<li><a href="#">item4 </a></li>
+<li><a href="bureau.php"> Bureau </a></li>
 
 </ul>
 
 </li>
 
-<li><a href="#">Cuisine</a>
+<li><a>Cuisine</a>
 
-<ul> <li> <a href="#">item1 </a></li>
+<ul> <li> <a href="etagereflottantes.php"> Etagere flottantes</a></li>
 
-<li><a href="#">item2 </a></li>
+<li><a href="table.php"> Table </a></li>
 
-<li><a href="#">item3 </a></li>
-
-<li><a href="#">item4 </a></li>
-
-</ul>
-
-</li>
-
-<li><a href="#">Cuisine</a>
-
-<ul> <li> <a href="#">item1 </a></li>
-
-<li><a href="#">item2 </a></li>
-
-<li><a href="#">item3 </a></li>
-
-<li><a href="#">item4 </a></li>
-
-</ul>
-
-</li>
-
-<li><a href="#">Cuisine</a>
-
-<ul> <li> <a href="#">item1 </a></li>
-
-<li><a href="#">item2 </a></li>
-
-<li><a href="#">item3 </a></li>
-
-<li><a href="#">item4 </a></li>
+<li><a href="bar.php"> Bar </a></li>
 
 </ul>
 
