@@ -49,15 +49,7 @@
 <body>
 
 <form name="form" action="creation.php" method="POST">
-        <div>
-            <label for="Nom "> Nom: </label>
-            <input type="nom" name="nom" id="nom" placeholder="Entrez vore nom">
-        </div><br><br>
 		<div>
-            <label for="Prenom "> Prenom: </label>
-            <input type="prenom" name="prenom" id="prenom" placeholder="Entrez vore prénom">
-        </div><br><br>
-        <div>
             <label for="Email">Email:</label>
             <input type="email" name="email" id="email" placeholder="Entrez vore email">
         </div><br>
@@ -65,19 +57,26 @@
             <label for="Confirmationemail">Confirmation email:</label>
             <input type="confirmationemail" name="confirmationemail" id="confirmationemail" placeholder="Confirmez vore email">
         </div><br><br>
+
+        <label for="password"> Mot de passe: </label>
+        <input type="password" name="password" id="password" placeholder="Entrez vore mot de passe">
+
+        <label for="confirmationmotdepasse "> Confirmation mot de passe: </label>
+        <input type="confirmationmotdepasse" name="confirmationmotdepasse" id="confirmationmotdepasse" placeholder="Entrez vore mot de passe">
+
+        <div>
+            <label for="Prenom "> Prenom: </label>
+            <input type="prenom" name="prenom" id="prenom" placeholder="Entrez vore prénom">
+        </div><br><br>
+        <div>
+            <label for="Nom "> Nom: </label>
+            <input type="nom" name="nom" id="nom" placeholder="Entrez vore nom">
+        </div><br><br>
+        
 		<div>
 		<label>Date de naissance</label> <br>
 		<input type="date" name="date"><br><br>
 		</div><br><br>
-        
-        <label for="id "> Identifiant: </label>
-        <input type="id" name="id" id="id" placeholder="Entrez vore id">
-
-        <label for="motdepasse "> Mot de passe: </label>
-        <input type="motdepasse" name="motdepasse" id="motdepasse" placeholder="Entrez vore mot de passe">
-
-        <label for="confirmationmotdepasse "> Confirmation mot de passe: </label>
-        <input type="confirmationmotdepasse" name="confirmationmotdepasse" id="confirmationmotdepasse" placeholder="Entrez vore mot de passe">
 
 		<input type="submit"  name="valider" value="Creation">
  
