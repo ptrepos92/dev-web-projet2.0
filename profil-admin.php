@@ -18,11 +18,12 @@ session_start();
 		<section>
 			<h2>Informations personnelles</h2>
 			<ul>
-				<li><strong>Nom :</strong> 
-
-				<?php echo 'Name is ' . $_SESSION['username'] . '.<br>'; ?>
+				<li><strong>Prenom :</strong> 
+				<?php echo 'Name is ' . $_SESSION['prenom'] . '.<br>'; ?>
 				</li>
-
+				<li><strong>Nom :</strong> 
+				<?php echo 'Name is ' . $_SESSION['nom'] . '.<br>'; ?>
+				</li>
 
 				<li><strong>Date de naissance :</strong> <?php 
 				echo 'Date is ' . $_SESSION['date'] . '.<br>'; ?></li>
@@ -35,8 +36,7 @@ session_start();
 
 		<a href="/deconnexion.php">Se deconnecter</a>
 		<a href="/supprimer-compte.php">Supprimer mon compte</a>
-
-
+		<a href="/modif.php">Modifier mon profil</a>
 
 
 		<section>
