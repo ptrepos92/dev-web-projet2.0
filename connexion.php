@@ -73,8 +73,8 @@
 
 <h1>Login</h1>
         <div>
-            <label for="username">Username:</label>
-            <input type="username" name="username" id="username" placeholder="Entrez vore username">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Entrez vore email">
         </div>
         <div>
             <label for="password">Password:</label>
