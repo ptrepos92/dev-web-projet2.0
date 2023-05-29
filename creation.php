@@ -1,14 +1,19 @@
 <?php 
 
     $tab=array();
-	$id = $_POST['id'];
-	$tab[]=$id;
 
-	$motdepasse= $_POST['motdepasse'];
-	$tab[]=$motdepasse;
+  
+    $prenom = $_POST['prenom'];
+    $tab[]=$prenom;
 
-	$email = $_POST['email'];
+    $nom = $_POST['nom'];
+    $tab[]=$nom;
+
+	$email= $_POST['email'];
 	$tab[]=$email;
+
+	$password= $_POST['password'];
+	$tab[]=$password;
 
     $date = $_POST['date'];
     $tab[]=$date;
@@ -28,7 +33,7 @@
 
 	$confirmationmotdepasse = $_POST['confirmationmotdepasse'];
     
-    if ($motdepasse == $confirmationmotdepasse)
+    if ($password == $confirmationmotdepasse)
     {
     echo "Valide";
     }
@@ -38,34 +43,20 @@
     }
 
 
-?>
-
-
-
-<?php
-
 
 $success = true;
 
 $handle = fopen("login.csv", "a");
-while (($data = fgetcsv($handle)) !== FALSE) {
-    if ($data[0] == $id) {
+while (($data = fgetcsv($handle,null,"\t")) !== FALSE) {
+    if ($data[2] == $email) {
         $success = false;
         echo "votre id existe déjà";
         break;
     }
-    if ($data[2] == $email) {
-        $success = false;
-        echo "votre id ou votre email existe déjà";
-        break;
-    }
 }
-
 
 fputcsv($handle, $tab);
 fclose($handle);
-
-
 
 if ($success == true) {
      echo "ton compte vient d'être créer";
